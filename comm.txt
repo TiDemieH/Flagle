@@ -1,0 +1,1 @@
+pyinstaller --onedir --windowed  --add-data "cleanflags:cleanflags"  --add-data "pools:pools"  --add-data "images:images" --add-data "data:data" --icon=images/kiwi.icns --noconfirm flagle.py
